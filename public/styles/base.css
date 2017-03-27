@@ -4,9 +4,16 @@ img {
 
 body {
   font-size: 15px;
-  color: #474747;
+  color: 	#3A3A38;
   font-family: 'Homemade Apple';
-  width: 100%
+  width: 97%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p {
+  font-size: 20px;
+  font-family: 'Open Sans Condensed';
 }
 
 main {
@@ -15,20 +22,26 @@ main {
 }
 
 hr {
-  margin: 1em;
-  width: 80%;
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+h1 {
+  display: inline-block;
+  margin-bottom: 2px;
+}
+
+footer {
+  font-size: 12px;
 }
 
 @media only screen and (min-width: 640px) {
   body {
     width: 900px;
-    color: #292929;
     margin-left: auto;
     margin-right: auto;
     font-size: 25px;
   }
 
-  footer {
-    font-size: 12px;
-  }
 }
