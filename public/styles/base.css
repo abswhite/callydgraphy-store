@@ -3,9 +3,10 @@ img {
 }
 
 body {
-  line-height: 1.5;
-  font-size: 100%;
-  color: #313131;
+  font-size: 15px;
+  color: #474747;
+  font-family: 'Homemade Apple';
+  width: 100%
 }
 
 main {
@@ -18,63 +19,16 @@ hr {
   width: 80%;
 }
 
-/*TEXT STYLES
-=======================================*/
-p {
-  font-size: 1em;
-}
+@media only screen and (min-width: 640px) {
+  body {
+    width: 900px;
+    color: #292929;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25px;
+  }
 
-address {
-  display: inline-block;
-}
-
-/*LINK STYLES
-=======================================*/
-
-a, a:link, a:active {
-  text-decoration: none;
-  color: #777;
-}
-
-a:hover, a:focus {
-  color: #29506D;
-}
-
-a:visited {
-}
-
-/*FORM STYLES
-=======================================*/
-label {
-  font-size: 3em;
-}
-
-input {
-  width: 100%;
-  margin: .5em 0;
-  border: 1px solid #ccc;
-  border-width: 0 0 1px 0;
-  border-radius: 0;
-}
-
-input[type="checkbox"] {
-  width: .28em;
-  height: .28em;
-  font-size: 3em;
-}
-
-textarea {
-  width: 100%;
-  margin: .5em 0;
-  font-size: 2em;
-  border: 1px solid #ccc;
-  border-radius: 0;
-}
-
-input:invalid, textarea:invalid {
-  border-color: #AE3F3C;
-}
-
-input:valid, textarea:valid {
-  border-color: #89CB8E;
+  footer {
+    font-size: 12px;
+  }
 }
