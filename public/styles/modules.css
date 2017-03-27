@@ -19,6 +19,7 @@
 .item_thumb {
   width: 300px;
   height: auto;
+  zoom: 150%;
 }
 
 .shelfItem {
@@ -26,6 +27,7 @@
   display: inline-block;
   width: 400px;
   margin: auto;
+  margin-top: 10px;
 }
 
 .shelf {
@@ -39,6 +41,11 @@
 
 .item_price, .item_add {
   font-size: 16px;
+}
+
+.item_add {
+  color: #EE6363;
+  text-decoration: none;
 }
 
 @media only screen and (min-width: 640px) {
