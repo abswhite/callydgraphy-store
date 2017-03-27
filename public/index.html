@@ -8,16 +8,27 @@
     <link rel="stylesheet" href="styles/modules.css">
     <link rel="stylesheet" href="styles/layout.css">
     <link rel="stylesheet" href="styles/images.css">
-    <link rel="shortcut icon" href="/images/logo/logo-7.png">
+    <link rel="icon" href="/images/logo/logo-7.png">
 
     <link href="https://fonts.googleapis.com/css?family=Dawning+of+a+New+Day|Homemade+Apple|League+Script|Open+Sans+Condensed:300|Wire+One|Marvel" rel="stylesheet">
+
+    <script id="product-template" type="text/x-handlebars-template">
+      <div class="shelfItem">
+          <img src="{{productImg}}" class="item_thumb" />
+          <h3 class="item_name">{{title}} | {{type}}</h3>
+          <input type="text" value="1" class="item_Quantity">
+          <span class="item_price">{{price}}</span>
+      	<a class="item_add" href="javascript:;"> Add to Cart </a>
+      </div>
+    </script>
+
 
   </head>
   <body>
     <!-- header  -->
     <header>
       <section>
-        <img src="images/logo/logo-7.png" class="logo"/>
+        <img src="images/logo/logo-7.png" class="butterfly"/>
         <h1>Callydgraphy</h1>
         <h5 class="subtitle">Lydia Grasso Calligraphy Designs</h5>
         <hr>
@@ -27,14 +38,23 @@
     <!-- main -->
     <main>
       <!-- Store -->
-      <section id="store">
-        <h3>Calligraphy Store</h3>
-      </section>
+      <script src="scripts/simpleCart.js"></script>
+      <script>
+      	simpleCart({
+      		checkout: {
+      			type: "PayPal" ,
+      			email: "abigailwhite213@gmail.com"
+      		}
+      	});
+      </script>
 
-      <!-- About  -->
+      <div id="shelf">
+      </div>
+
+     <!-- About  -->
       <section id="about">
         <h3>About Lydia</h3>
-        <p>Hey, I'm Lydia. I'm 21, I love pugs & I'm from Massachusetts.
+        <p>Hey, I'm Lydia. I'm 21, I love pugs & Im from Massachusetts.
           <br><br>
           My love for calligraphy began as the result of my inability to pay attention in class. Though I've been making things for people since high school, I "officially" began Callydgraphy November of 2015 while I was recovering from my ACL surgery. Since then, I've been able to work on a wide variety of commissions, ranging from seating charts on mirrors, wedding programs on chalkboards, personal greeting cards, wedding invitations, vow books, and more. It's been a blast so far, and I look forward to helping you put to paper (or mirror or chalkboard or whatever) exactly what you want! </p>
       </section>
@@ -52,7 +72,12 @@
       &copy; Abigail White Designs
     </footer>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.6/handlebars.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.rawgit.com/visionmedia/page.js/master/page.js"></script>
+    <script src="scripts/simpleCart.js"></script>
+    <script src="scripts/model/productRender.js"></script>
+
 
   </body>
 </html>

@@ -24,13 +24,13 @@ main {
 hr {
   border: 0;
   height: 1px;
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(58,58,56,.75), rgba(0, 0, 0, 0));
 }
 
 h1 {
   display: inline-block;
   margin-bottom: 2px;
-  font-size: 20px;
+  font-size: 30px;
 }
 
 footer {
