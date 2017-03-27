@@ -11,15 +11,14 @@
 }
 
 .subtitle {
-  font-family: 'Open Sans Condensed';
-  display: inline-block;
-  margin-left: 10px;
-  font-size: 13px;
+  display: none;
 }
 
 @media only screen and (min-width: 640px) {
   .subtitle {
-    font-size: 20px;
-    margin-left: 20px;
+    font-family: 'Open Sans Condensed';
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 19px;
   }
 }
