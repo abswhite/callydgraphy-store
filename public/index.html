@@ -8,9 +8,20 @@
     <link rel="stylesheet" href="styles/modules.css">
     <link rel="stylesheet" href="styles/layout.css">
     <link rel="stylesheet" href="styles/images.css">
-    <link rel="shortcut icon" href="/images/logo/logo-7.png">
+    <link rel="icon" href="/images/logo/logo-7.png">
 
     <link href="https://fonts.googleapis.com/css?family=Dawning+of+a+New+Day|Homemade+Apple|League+Script|Open+Sans+Condensed:300|Wire+One|Marvel" rel="stylesheet">
+
+    <script id="product-template" type="text/x-handlebars-template">
+      <div class="shelfItem">
+          <img src="{{productImg}}" class="item_thumb" />
+          <h3 class="item_name">{{title}} | {{type}}</h3>
+          <input type="text" value="1" class="item_Quantity">
+          <span class="item_price">{{price}}</span>
+      	<a class="item_add" href="javascript:;"> Add to Cart </a>
+      </div>
+    </script>
+
 
   </head>
   <body>
@@ -32,11 +43,13 @@
       	simpleCart({
       		checkout: {
       			type: "PayPal" ,
-      			email: "you@yours.com"
+      			email: "abigailwhite213@gmail.com"
       		}
       	});
       </script>
 
+      <div id="shelf">
+      </div>
 
      <!-- About  -->
       <section id="about">
@@ -59,8 +72,12 @@
       &copy; Abigail White Designs
     </footer>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.6/handlebars.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.rawgit.com/visionmedia/page.js/master/page.js"></script>
     <script src="scripts/simpleCart.js"></script>
+    <script src="scripts/model/productRender.js"></script>
+
 
   </body>
 </html>

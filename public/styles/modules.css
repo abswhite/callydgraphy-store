@@ -1,3 +1,4 @@
+/*header and footer*/
 .social {
   width: 30px;
   height: 30px;
@@ -12,6 +13,32 @@
 
 .subtitle {
   display: none;
+}
+
+/*shopping cart*/
+.item_thumb {
+  width: 300px;
+  height: auto;
+}
+
+.shelfItem {
+  font-family: 'Open Sans Condensed';
+  display: inline-block;
+  width: 400px;
+  margin: auto;
+}
+
+.shelf {
+  width: 900px;
+}
+
+.item_name {
+  font-size: 22px;
+  margin: 0;
+}
+
+.item_price, .item_add {
+  font-size: 16px;
 }
 
 @media only screen and (min-width: 640px) {
