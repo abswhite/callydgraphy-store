@@ -22,7 +22,7 @@
   zoom: 150%;
 }
 
-.simpleCart_shelfItem, #cart {
+.simpleCart_shelfItem, .cart_content {
   font-family: 'Open Sans Condensed';
   display: inline-block;
   width: 400px;
@@ -30,8 +30,8 @@
   margin-top: 10px;
 }
 
-#cart h3 {
-  font-family: 'Homemade Apple';
+.cart_label, #cart div {
+  font-size: 20px;
 }
 
 .shelf {

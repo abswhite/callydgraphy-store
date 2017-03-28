@@ -105,12 +105,12 @@
 
 					excludeFromCheckout	: ['thumb'],
 
-					shippingFlatRate		: 0,
+					shippingFlatRate		: 5,
 					shippingQuantityRate	: 0,
 					shippingTotalRate		: 0,
 					shippingCustom		: null,
 
-					taxRate				: 0,
+					taxRate				: .02,
 
 					taxShipping			: false,
 
@@ -468,7 +468,6 @@
 					} catch (e){
 						simpleCart.error( "Error Loading data: " + e );
 					}
-
 
 					simpleCart.trigger('load');
 				},
