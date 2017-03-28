@@ -37,7 +37,7 @@
     <!-- main -->
     <main>
       <!-- Store -->
-      <script src="scripts/simpleCart.js"></script>
+      <script src="scripts/model/simpleCart.js"></script>
       <script>
       	simpleCart({
       		checkout: {
@@ -49,11 +49,10 @@
 
       <section id="store">
         <div id="shelf"></div>
-        <!-- create a checkout button -->
-        <a href="javascript:;" class="simpleCart_checkout">Checkout Button</a>
-        <br>
-        <div id="cart">
 
+        <br>
+
+        <div id="cart">
           <!-- button to empty the cart -->
           <a href="javascript:;" class="simpleCart_empty"></a>
 
@@ -62,22 +61,31 @@
           <br>
 
           <!-- cart total (ex. $23.11)-->
-          <div class="simpleCart_total">Cart Total: </div>
+          <h3 class="cart_label">Cart Total: </h3>
+          <div class="simpleCart_total"></div><br>
 
           <!-- cart quantity (ex. 3) -->
-          <div class="simpleCart_quantity">Cart Quantity: </div>
+          <h3 class="cart_label">Total Quantity: </h3>
+          <div class="simpleCart_quantity"></div><br>
 
           <!-- tax cost (ex. $1.38) -->
-          <div class="simpleCart_tax">Tax Cost: </div>
+          <h3 class="cart_label">Tax Cost: </h3>
+          <div class="simpleCart_tax"></div><br>
 
           <!-- tax rate (ex. %0.6) -->
-          <div class="simpleCart_taxRate">Tax Rate: </div>
+          <h3 class="cart_label">Tax Rate: </h3>
+          <div class="simpleCart_taxRate"></div><br>
 
           <!-- shipping (ex. $5.00) -->
-          <div class="simpleCart_shipping">Shipping Cost: </div>
+          <h3 class="cart_label">Shipping Fees: </h3>
+          <div class="simpleCart_shipping"></div><br>
 
           <!-- grand total, including tax and shipping (ex. $28.49) -->
-          <div class="simpleCart_grandTotal">Total: </div>
+          <h3 class="cart_label">Grand Total: </h3>
+          <div class="simpleCart_grandTotal"></div>
+
+          <!-- create a checkout button -->
+          <a href="javascript:;" class="simpleCart_checkout">Checkout Button</a>
 
         </div>
 
@@ -107,8 +115,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.6/handlebars.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://cdn.rawgit.com/visionmedia/page.js/master/page.js"></script>
-    <script src="scripts/simpleCart.js"></script>
-    <script src="scripts/simpleCart.min.js"></script>
+    <script src="scripts/model/simpleCart.js"></script>
+    <script src="scripts/model/simpleCart.min.js"></script>
     <script src="scripts/model/productRender.js"></script>
 
 

@@ -93,14 +93,14 @@
 
 					cartStyle				: "div",
 					cartColumns			: [
+						{ view: "image" , attr:"thumb", label: false},
 						{ attr: "name", label: "" },
 						{ attr: "price", label: "", view: 'currency' },
 						{ view: "decrement", label: false },
 						{ attr: "quantity", label: "" },
-						{view:'image' , attr:'thumb', label: false},
 						{ view: "increment", label: false },
-						{ attr: "total", label: "SubTotal", view: 'currency' },
-						{ view: "remove", text: "Remove", label: false }
+						{ attr: "total", label: "", view: 'currency' },
+						{ view: "remove", text: "Remove", label: false },
 					],
 
 					excludeFromCheckout	: ['thumb'],
