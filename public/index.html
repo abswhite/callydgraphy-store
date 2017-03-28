@@ -13,7 +13,7 @@
     <link href="https://fonts.googleapis.com/css?family=Dawning+of+a+New+Day|Homemade+Apple|League+Script|Open+Sans+Condensed:300|Wire+One|Marvel" rel="stylesheet">
 
     <script id="product-template" type="text/x-handlebars-template">
-      <div class="shelfItem">
+      <div class="simpleCart_shelfItem">
           <img src="{{productImg}}" class="item_thumb" />
           <h3 class="item_name">{{title}} | {{type}}</h3>
           <input type="text" value="1" class="item_Quantity">
@@ -21,7 +21,6 @@
       	<a class="item_add" href="javascript:;"> Add to Cart </a>
       </div>
     </script>
-
 
   </head>
   <body>
@@ -48,8 +47,41 @@
       	});
       </script>
 
-      <div id="shelf">
-      </div>
+      <section id="store">
+        <div id="shelf"></div>
+        <!-- create a checkout button -->
+        <a href="javascript:;" class="simpleCart_checkout">Checkout Button</a>
+        <br>
+        <div id="cart">
+
+          <!-- button to empty the cart -->
+          <a href="javascript:;" class="simpleCart_empty"></a>
+
+          <!-- show the cart -->
+          <div class="simpleCart_items"></div>
+          <br>
+
+          <!-- cart total (ex. $23.11)-->
+          <div class="simpleCart_total">Cart Total: </div>
+
+          <!-- cart quantity (ex. 3) -->
+          <div class="simpleCart_quantity">Cart Quantity: </div>
+
+          <!-- tax cost (ex. $1.38) -->
+          <div class="simpleCart_tax">Tax Cost: </div>
+
+          <!-- tax rate (ex. %0.6) -->
+          <div class="simpleCart_taxRate">Tax Rate: </div>
+
+          <!-- shipping (ex. $5.00) -->
+          <div class="simpleCart_shipping">Shipping Cost: </div>
+
+          <!-- grand total, including tax and shipping (ex. $28.49) -->
+          <div class="simpleCart_grandTotal">Total: </div>
+
+        </div>
+
+      </section>
 
      <!-- About  -->
       <section id="about">
@@ -76,6 +108,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://cdn.rawgit.com/visionmedia/page.js/master/page.js"></script>
     <script src="scripts/simpleCart.js"></script>
+    <script src="scripts/simpleCart.min.js"></script>
     <script src="scripts/model/productRender.js"></script>
 
 
