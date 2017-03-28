@@ -30,6 +30,10 @@
   margin-top: 10px;
 }
 
+#cart h3 {
+  font-family: 'Homemade Apple';
+}
+
 .shelf {
   width: 900px;
 }

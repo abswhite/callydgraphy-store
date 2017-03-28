@@ -1,0 +1,4 @@
+.item-increment, .item-decrement, .item-quantity, .cart_label, .simpleCart_grandTotal, .simpleCart_shipping, .simpleCart_taxRate, .simpleCart_tax, .simpleCart_quantity, .simpleCart_total {
+  display: inline-block;
+  margin: 0;
+}
