@@ -15,6 +15,10 @@ app.use(express.static('./public'));
 
 
 // NOTE: Routes for requesting HTML resources
-app.get('*', (request, response) => response.sendFile('index.html', {root: './public'}));
+app.get('/', (request, response) => response.sendFile('index.html', {root: './public'}));
+app.get('/about', (request, response) => response.sendFile('index.html', {root: './public'}));
+app.get('/cart', (request, response) => response.sendFile('index.html', {root: './public'}));
+app.get('/store', (request, response) => response.sendFile('index.html', {root: './public'}));
+
 
 app.listen(PORT, () => console.log(`Server started on port ${PORT}!`));

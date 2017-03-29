@@ -30,6 +30,15 @@
         <img src="images/logo/logo-7.png" class="butterfly"/>
         <h1>Callydgraphy</h1>
         <h5 class="subtitle">Lydia Grasso Calligraphy Designs</h5>
+
+        <!-- navigation menu -->
+        <nav>
+          <a href="/">Home</a>
+          <a href="/about">About</a>
+          <a href="/store">Store</a>
+          <a href="/cart">Cart</a>
+
+        </nav>
         <hr>
       </section>
     </header>
@@ -47,10 +56,12 @@
       	});
       </script>
 
+      <section id="home">Home
+      </section>
+
       <section id="store">
         <div id="shelf"></div>
-
-        <br>
+      </section>
 
         <div id="cart">
           <h3>Shopping Cart</h3>
@@ -92,8 +103,6 @@
 
         </div>
 
-      </section>
-
      <!-- About  -->
       <section id="about">
         <h3>About Lydia</h3>
@@ -115,12 +124,22 @@
       &copy; Abigail White Designs
     </footer>
 
+    <!-- Scripts -->
+    <!-- CDN href -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.6/handlebars.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://cdn.rawgit.com/visionmedia/page.js/master/page.js"></script>
     <script src="scripts/model/simpleCart.js"></script>
-    <script src="scripts/model/simpleCart.min.js"></script>
+
+    <!-- Page Controllers -->
+    <script src="scripts/controllers/aboutController.js"></script>
+    <script src="scripts/controllers/cartController.js"></script>
+    <script src="scripts/controllers/storeController.js"></script>
+    <script src="scripts/controllers/homeController.js"></script>
+
     <script src="scripts/model/productRender.js"></script>
+    <script src="scripts/controllers/routes.js"></script>
+
 
 
   </body>
