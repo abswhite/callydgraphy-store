@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="styles/modules.css">
     <link rel="stylesheet" href="styles/layout.css">
     <link rel="stylesheet" href="styles/images.css">
+    <link rel="stylesheet" href="styles/nav.css">
     <link rel="icon" href="/images/logo/logo-7.png">
 
     <link href="https://fonts.googleapis.com/css?family=Dawning+of+a+New+Day|Homemade+Apple|League+Script|Open+Sans+Condensed:300|Wire+One|Marvel" rel="stylesheet">
@@ -29,10 +30,13 @@
     <header>
       <section>
         <div id="header-logo">
-          <img src="images/logo/logo-7.png" class="butterfly"/>
-          <h1>Callydgraphy</h1>
-          <h5 class="subtitle">Lydia Grasso Calligraphy Designs</h5>
-          <a href="/cart"><img src="images/social/cartIcon.png" id="cart_icon"></a>
+          <div class="top-bar">
+            <img src="images/logo/logo-7.png" class="butterfly"/>
+            <h1>Callydgraphy</h1>
+            <h5 class="subtitle">Lydia Grasso Calligraphy Designs</h5>
+            <a href="/cart"><img src="images/social/cartIcon.png" id="cart_icon"></a>
+            <a href="/cart"><img src="images/social/cartIcon.png" id="cart_icon1"></a>
+          </div>
         </div>
 
         <!-- navigation menu -->
@@ -83,18 +87,24 @@
 
         <div id="cart">
           <h2>Shopping Cart</h2>
-          <!-- button to empty the cart -->
+
+          <!-- page formatting -->
           <div class="cart_content">
 
+            <!-- Display items in cart -->
             <div id="cart_items">
+              <!-- button to empty the cart -->
               <a href="javascript:;" class="simpleCart_empty"></a>
               <!-- show the cart -->
               <div class="simpleCart_items"></div>
             </div>
+
             <br>
             <hr>
+
               <div id="order-summary">
                 <h3>Order Summary </h3>
+
                 <!-- cart total (ex. $23.11)-->
                 <h2 class="cart_label">Cart Total: </h2>
                 <div class="simpleCart_total"></div><br>
@@ -116,6 +126,8 @@
                 <div class="simpleCart_shipping"></div><br>
 
                 <!-- grand total, including tax and shipping (ex. $28.49) -->
+                <hr>
+                <br>
                 <h2 class="cart_label">Grand Total: </h2>
                 <div class="simpleCart_grandTotal"></div><br>
 
@@ -154,6 +166,8 @@
     <script src="https://cdn.rawgit.com/visionmedia/page.js/master/page.js"></script>
     <script src="scripts/model/simpleCart.js"></script>
     <script src="scripts/views/menuView.js"></script>
+    <script src="scripts/views/navigationView.js"></script>
+
 
     <!-- Page Controllers -->
     <script src="scripts/controllers/aboutController.js"></script>
