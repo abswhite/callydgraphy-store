@@ -94,23 +94,23 @@
 					cartStyle				: "div",
 					cartColumns			: [
 						{ view: "image" , attr:"thumb", label: false},
-						{ attr: "name", label: "" },
-						{ attr: "price", label: "", view: 'currency' },
 						{ view: "decrement", label: false },
 						{ attr: "quantity", label: "" },
 						{ view: "increment", label: false },
+						{ attr: "name", label: "" },
+						{ attr: "price", label: "", view: 'currency' },
 						{ attr: "total", label: "", view: 'currency' },
 						{ view: "remove", text: "Remove", label: false },
 					],
 
 					excludeFromCheckout	: ['thumb'],
 
-					shippingFlatRate		: 5,
+					shippingFlatRate		: 0,
 					shippingQuantityRate	: 0,
 					shippingTotalRate		: 0,
 					shippingCustom		: null,
 
-					taxRate				: .02,
+					taxRate				: 0,
 
 					taxShipping			: false,
 
