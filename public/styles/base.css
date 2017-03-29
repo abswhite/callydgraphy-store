@@ -10,7 +10,7 @@ a {
 body {
   font-size: 15px;
   color: 	#3A3A38;
-  font-family: 'Homemade Apple';
+  font-family: 'Homemade Apple', cursive;
   width: 97%;
   margin-left: auto;
   margin-right: auto;
@@ -18,7 +18,7 @@ body {
 
 p {
   font-size: 20px;
-  font-family: 'Open Sans Condensed';
+  font-family: 'Open Sans Condensed', arial;
 }
 
 main {

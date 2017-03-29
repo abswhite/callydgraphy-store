@@ -39,9 +39,9 @@
         <nav id="nav-mobile">
           <img src="images/social/menu-icon.png" id="menu_icon">
           <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/store">Store</a></li>
-            <li><a href="/about">About</a></li>
+            <a href="/"><li>Home</li></a>
+            <a href="/store"><li>Store</li></a>
+            <a href="/about"><li>About</li></a>
 
           </ul>
         </nav>
@@ -78,48 +78,52 @@
       <section id="store">
         <h2>Store</h2>
         <div id="shelf"></div>
+        <a href="/cart" class="simpleCart_goToCart"><h3>Go to Cart<h3></a>
       </section>
 
         <div id="cart">
           <h2>Shopping Cart</h2>
           <!-- button to empty the cart -->
           <div class="cart_content">
-            <a href="javascript:;" class="simpleCart_empty"></a>
 
-            <!-- show the cart -->
-            <div class="simpleCart_items"></div>
+            <div id="cart_items">
+              <a href="javascript:;" class="simpleCart_empty"></a>
+              <!-- show the cart -->
+              <div class="simpleCart_items"></div>
+            </div>
             <br>
-
             <hr>
+              <div id="order-summary">
+                <h3>Order Summary </h3>
+                <!-- cart total (ex. $23.11)-->
+                <h2 class="cart_label">Cart Total: </h2>
+                <div class="simpleCart_total"></div><br>
 
-            <!-- cart total (ex. $23.11)-->
-            <h2 class="cart_label">Cart Total: </h2>
-            <div class="simpleCart_total"></div><br>
+                <!-- cart quantity (ex. 3) -->
+                <h2 class="cart_label">Total Quantity: </h2>
+                <div class="simpleCart_quantity"></div><br>
 
-            <!-- cart quantity (ex. 3) -->
-            <h2 class="cart_label">Total Quantity: </h2>
-            <div class="simpleCart_quantity"></div><br>
+                <!-- tax cost (ex. $1.38) -->
+                <h2 class="cart_label">Tax Cost: </h2>
+                <div class="simpleCart_tax"></div><br>
 
-            <!-- tax cost (ex. $1.38) -->
-            <h2 class="cart_label">Tax Cost: </h2>
-            <div class="simpleCart_tax"></div><br>
+                <!-- tax rate (ex. %0.6) -->
+                <h2 class="cart_label">Tax Rate: </h2>
+                <div class="simpleCart_taxRate"></div><br>
 
-            <!-- tax rate (ex. %0.6) -->
-            <h2 class="cart_label">Tax Rate: </h2>
-            <div class="simpleCart_taxRate"></div><br>
+                <!-- shipping (ex. $5.00) -->
+                <h2 class="cart_label">Shipping Fees: </h2>
+                <div class="simpleCart_shipping"></div><br>
 
-            <!-- shipping (ex. $5.00) -->
-            <h2 class="cart_label">Shipping Fees: </h2>
-            <div class="simpleCart_shipping"></div><br>
+                <!-- grand total, including tax and shipping (ex. $28.49) -->
+                <h2 class="cart_label">Grand Total: </h2>
+                <div class="simpleCart_grandTotal"></div><br>
 
-            <!-- grand total, including tax and shipping (ex. $28.49) -->
-            <h2 class="cart_label">Grand Total: </h2>
-            <div class="simpleCart_grandTotal"></div><br>
+                <!-- create a checkout button -->
+                <a href="javascript:;" class="simpleCart_checkout"><h3>Checkout</h3></a>
+              </div>
 
-            <!-- create a checkout button -->
-            <a href="javascript:;" class="simpleCart_checkout">Checkout Button</a>
           </div>
-
         </div>
 
      <!-- About  -->
