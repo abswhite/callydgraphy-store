@@ -86,6 +86,10 @@
     padding: 0;
   }
 
+.simpleCart_items {
+  display: inline-block;
+}
+
 @media only screen and (min-width: 640px) {
   .subtitle {
     font-family: 'Open Sans Condensed';

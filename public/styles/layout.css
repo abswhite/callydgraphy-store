@@ -22,3 +22,7 @@
   font-family: 'Open Sans Condensed';
   font-size: 22px;
 }
+
+#nav-browser a {
+  color: darkgrey;
+}
