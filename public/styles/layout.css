@@ -1,15 +1,23 @@
-.item-increment, .item-decrement, .item-quantity, .cart_label, .simpleCart_grandTotal, .simpleCart_shipping, .simpleCart_taxRate, .simpleCart_tax, .simpleCart_quantity, .simpleCart_total {
+.item-quantity, .cart_label, .simpleCart_grandTotal, .simpleCart_shipping, .simpleCart_taxRate, .simpleCart_tax, .simpleCart_quantity, .simpleCart_total {
   display: inline-block;
   margin: 0;
 }
 
-#menu_icon {
+#nav-mobile {
   width: 50px;
-  height: 50px;
+}
+
+#nav-browser {
+  width: 200px;
   margin-left: auto;
   margin-right: auto;
 }
 
-#nav-mobile {
-  width: 50px;
+#nav-browser li {
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: 'Open Sans Condensed';
+  font-size: 22px;
 }
