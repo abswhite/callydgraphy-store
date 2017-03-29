@@ -17,16 +17,18 @@
 
 /*shopping cart*/
 .item_thumb {
-  width: 300px;
+  max-width: 100%;
   height: auto;
-  zoom: 150%;
+  margin-right: 5px;
+  margin-left: auto;
 }
 
 .simpleCart_shelfItem, .cart_content {
   font-family: 'Open Sans Condensed';
   display: inline-block;
-  width: 400px;
-  margin: auto;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 10px;
 }
 
@@ -105,5 +107,14 @@
 
   #nav-browser ul li {
     display: inline-block;
+  }
+
+  .item_thumb {
+    width: 300px;
+    height: auto;
+    zoom: 150%;
+  }
+  .simpleCart_shelfItem, .cart_content {
+    width: 400px;
   }
 }
