@@ -113,6 +113,8 @@
     width: 300px;
     height: auto;
     zoom: 150%;
+    margin-right: auto;
+
   }
   .simpleCart_shelfItem, .cart_content {
     width: 400px;
