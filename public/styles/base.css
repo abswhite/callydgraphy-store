@@ -35,7 +35,7 @@ hr {
 h1 {
   display: inline-block;
   margin-bottom: 2px;
-  font-size: 30px;
+  font-size: 28px;
 }
 
 footer {
@@ -52,7 +52,7 @@ ul {
 }
 
 h2 {
-  font-size: 25px;
+  font-size: 24px;
 }
 
 @media only screen and (min-width: 640px) {
