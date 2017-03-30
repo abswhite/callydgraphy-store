@@ -2,6 +2,8 @@
 
 $(document).ready(function() {
 
+  $('.headerRow').remove();
+
   $(window).scroll(function () {
       //if you hard code, then use console
       //.log to determine when you want the
@@ -14,6 +16,7 @@ $(document).ready(function() {
       $('.subtitle').addClass('subtitle-margin');
       $('.cart_icon').addClass('cart_icon1');
       $('.cart_icon').removeClass('cart_icon2');
+      $('.headerRow').remove();
 
     }
 
@@ -24,6 +27,7 @@ $(document).ready(function() {
       $('.subtitle').removeClass('subtitle-margin');
       $('.cart_icon').removeClass('cart_icon1');
       $('.cart_icon').addClass('cart_icon2');
+      $('.headerRow').remove();
 
     }
   });

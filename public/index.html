@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="styles/layout.css">
     <link rel="stylesheet" href="styles/images.css">
     <link rel="stylesheet" href="styles/nav.css">
+
     <link rel="icon" href="/images/logo/logo-7.png">
 
     <link href="https://fonts.googleapis.com/css?family=Dawning+of+a+New+Day|Homemade+Apple|League+Script|Open+Sans+Condensed:300|Wire+One|Marvel" rel="stylesheet">
@@ -76,11 +77,15 @@
       </script>
 
       <section id="home">
-        <h2>Home</h2>
+        <img class="mySlides" src="images/products/His Her Vow Books 2.jpg">
+        <img class="mySlides" src="images/products/Custom Wood Sign - Initial 1.jpg">
+        <img class="mySlides" src="images/products/His Her Vow Books 3.jpg">
+        <img class="mySlides" src="images/products/Custom Wood Sign - Short Quote 3.jpg">
       </section>
 
       <section id="store">
-        <h2>Store</h2>
+        <h2 class="store">Store</h2>
+        <a href="/cart" class="simpleCart_goToCart goToCart"><h3>Go to Cart</h3></a>
         <div id="shelf"></div>
         <a href="/cart" class="simpleCart_goToCart"><h3>Go to Cart<h3></a>
       </section>
@@ -132,7 +137,7 @@
                 <div class="simpleCart_grandTotal"></div><br>
 
                 <!-- create a checkout button -->
-                <a href="javascript:;" class="simpleCart_checkout"><h3>Checkout</h3></a>
+                <a href="javascript:;" class="simpleCart_checkout"><img src="images/social/paypal.png" id="paypal"/></a>
               </div>
 
           </div>
@@ -166,6 +171,7 @@
     <script src="https://cdn.rawgit.com/visionmedia/page.js/master/page.js"></script>
     <script src="scripts/model/simpleCart.js"></script>
     <script src="scripts/views/menuView.js"></script>
+    <script src="scripts/views/homeGallery.js"></script>
     <script src="scripts/views/navigationView.js"></script>
 
 
