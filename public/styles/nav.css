@@ -80,7 +80,7 @@
   margin-right: 10px;
 }
 
-.cart_icon {
+.cart_icon, .cart_icon2 {
   display: none;
 }
 
@@ -96,10 +96,6 @@
   margin-left: auto;
   margin-left: auto;
   display: inline;
-}
-
-.cart_icon2 {
-  display: none;
 }
 
 .h1-scroll {

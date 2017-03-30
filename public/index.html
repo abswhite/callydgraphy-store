@@ -20,8 +20,10 @@
         <h3 class="item_name">{{title}} | {{type}}</h3>
         <input type="text" value="1" class="item_Quantity">
         <span class="item_price">{{price}}</span>
-        <span class="item_comments">{{price}}</span>
-      	<a id="item_add" class="item_add" href="javascript:;">Add to Cart</a>
+      	<a class="item_add" href="javascript:;">Add to Cart</a>
+        <br>
+        <textarea type="text" class="item_notes">Add Custom Item Text</textarea>
+
         <br>
       </div>
     </script>
@@ -59,7 +61,7 @@
             <li><a href="/about">About</a></li>
           </ul>
         </nav>
-        <h3 class="top-bar itemAdded1"'>Item Added to Cart!</h3>
+        <h3 class="top-bar itemAdded1">Item Added to Cart!</h3>
         <hr>
 
       </section>
@@ -137,6 +139,8 @@
                 <br>
                 <h2 class="cart_label">Grand Total: </h2>
                 <div class="simpleCart_grandTotal"></div><br>
+
+                <!-- notes form -->
 
                 <!-- create a checkout button -->
                 <a href="javascript:;" class="simpleCart_checkout"><img src="images/social/paypal.png" id="paypal"/></a>
