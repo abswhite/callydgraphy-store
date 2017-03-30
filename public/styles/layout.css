@@ -3,6 +3,12 @@
   margin: 0;
 }
 
+.welcome {
+  width: 100%;
+  text-align: center;
+  font-size: 60px;
+}
+
 #cart_items, #order-summary {
   display: inline-block;
   margin: 0;

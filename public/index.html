@@ -39,7 +39,7 @@
             <img src="images/logo/logo-7.png" class="butterfly"/>
             <h1>Callydgraphy</h1>
             <h5 class="subtitle">Lydia Grasso Calligraphy Designs</h5>
-            <a href="/cart"><img src="images/social/cartIcon.png" class="cart_icon cart_icon2"></a>
+            <a href="/cart"><img src="images/social/cartIcon.png" class="cart_icon" id="cart_icon"></a>
             <h3 class="itemAdded">Item Added to Cart!</h3>
           </div>
         </div>
@@ -70,22 +70,14 @@
 
     <!-- main -->
     <main>
-      <!-- Store -->
-      <script src="scripts/model/simpleCart.js"></script>
-      <script>
-      	simpleCart({
-      		checkout: {
-      			type: "PayPal" ,
-      			email: "abigailwhite213@gmail.com"
-      		}
-      	});
-      </script>
 
       <section id="home">
-        <img class="mySlides" src="images/products/His Her Vow Books 2.jpg">
-        <img class="mySlides" src="images/products/Custom Wood Sign - Initial 1.jpg">
-        <img class="mySlides" src="images/products/His Her Vow Books 3.jpg">
-        <img class="mySlides" src="images/products/Custom Wood Sign - Short Quote 3.jpg">
+        <img class="mySlides" src="images/products/1-Custom Wood Sign.jpg">
+        <img class="mySlides" src="images/products/2-Custom Wood Sign.jpg">
+        <img class="mySlides" src="images/products/3-Custom Wood Sign.jpg">
+        <h1 class="welcome">Beautiful Calligraphy<br>Custom for You</h1>
+        <br><br>
+        <br>
       </section>
 
       <section id="store">
@@ -189,7 +181,6 @@
     <script src="scripts/controllers/storeController.js"></script>
     <script src="scripts/controllers/homeController.js"></script>
 
-    <script src="scripts/model/addToCart.js"></script>
     <script src="scripts/model/productRender.js"></script>
     <script src="scripts/controllers/routes.js"></script>
 

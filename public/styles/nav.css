@@ -57,7 +57,7 @@
 }
 
 .top-bar {
-  width: 330px;
+  width: 290px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -80,7 +80,7 @@
   margin-right: 10px;
 }
 
-.cart_icon, .cart_icon2 {
+.cart_icon {
   display: none;
 }
 
@@ -89,7 +89,7 @@
   height: auto;
   position: absolute;
   padding-top: 30px;
-  padding-left: 40px;
+  padding-left: 50px;
   margin-right: 0;
   width: 30px;
   height: auto;
@@ -117,16 +117,20 @@
     width: 30px;
     height: auto;
     position: absolute;
-    padding-top: 30px;
-    padding-left: 40px;
     margin-right: 0;
     width: 30px;
     height: auto;
     margin-left: auto;
     margin-left: auto;
     display: inline;
+    padding-top: 65px;
+    padding-left: 200px;
   }
 
+  .cart_icon1 {
+    padding-top: 30px;
+    padding-left: 227px;
+  }
 
   .itemAdded1, .itemAdded {
     font-family: 'Open Sans Condensed', arial;
@@ -143,16 +147,6 @@
 
   .subtitle-margin {
     margin-right: 180px;
-  }
-
-  .cart_icon1 {
-    padding-top: 30px;
-    padding-left: 217px;
-  }
-
-  .cart_icon2 {
-    padding-top: 60px;
-    padding-left: 200px;
   }
 
   .top-bar {
@@ -172,18 +166,8 @@
   }
 
   .butterfly-scroll {
-    width: 50px;
+    width: 40px;
     height: auto;
   }
 
-  .cart-scroll {
-    position: absolute;
-    padding-top: 3px;
-    margin-right: 0;
-    width: 30px;
-    height: auto;
-    margin-left: auto;
-    margin-left: auto;
-    display: inline;
-  }
 }
