@@ -637,7 +637,7 @@
 						x,
 						xlen;
 
-					container.html(' ').append(cart_container);
+					container.html('').append(cart_container);
 
 					cart_container.append(thead_container);
 
