@@ -1816,8 +1816,11 @@
 
 							// add the item
 							simpleCart.add(fields);
+						    $('.confirmation').show(0).delay(1000).hide(0);
+								console.log('hello');
 						}
 					}
+
 				]);
 			});
 

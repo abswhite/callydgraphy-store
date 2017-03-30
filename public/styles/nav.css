@@ -1,0 +1,174 @@
+/*Nav browser*/
+#nav-browser {
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+#nav-browser ul {
+  padding: 0;
+}
+
+#nav-browser li {
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: 'Open Sans Condensed', arial;
+  font-size: 22px;
+}
+
+
+#nav-browser ul {
+  display: none;
+}
+
+/*Nav Mobile*/
+#nav-mobile {
+  width: 50px;
+}
+
+#nav-mobile ul {
+  display: none;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#nav-mobile li {
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+#nav-mobile a {
+  margin: 0;
+  padding: 0;
+}
+
+/*General*/
+#header-logo {
+  display: block;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.top-bar {
+  width: 330px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar-fixed {
+  top: 0;
+  z-index: 100;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  padding: 5px;
+  width: 100%;
+}
+
+
+#nav-mobile a, #nav-browser a {
+  color: 	#3A3A38;
+  font-family: 'Open Sans Condensed', arial;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.cart_icon {
+  display: none;
+}
+
+.h1-scroll {
+  font-size: 25px;
+}
+
+@media only screen and (min-width: 640px) {
+
+  .cart_icon {
+    width: 30px;
+    height: auto;
+    position: absolute;
+    padding-top: 30px;
+    padding-left: 40px;
+    margin-right: 0;
+    width: 30px;
+    height: auto;
+    margin-left: auto;
+    margin-left: auto;
+    display: inline;
+  }
+
+
+  .confirmation {
+    display: none;
+    position: absolute;
+    font-family: 'Open Sans Condensed', arial;
+    font-size: 25px;
+    background-color: #F08080;
+    color: white;
+    width: 100px;
+    text-align: center;
+    margin-left: 850px;
+    margin-right: 0;
+    margin-top: 0;
+    padding-top: 5px;
+    padding-left: 5px;
+  }
+
+  .navbar-fixed {
+    width: 900px;
+    padding-bottom: 3px;
+  }
+
+  .subtitle-margin {
+    margin-right: 180px;
+  }
+
+  .cart_icon1 {
+    padding-top: 30px;
+    padding-left: 217px;
+  }
+
+  .cart_icon2 {
+    padding-top: 60px;
+    padding-left: 200px;
+  }
+
+  .top-bar {
+    width: 900px;
+  }
+
+  #nav-browser ul {
+    display: inline-block;
+  }
+
+  #nav-browser ul li {
+    display: inline-block;
+  }
+
+  .h1-scroll {
+    font-size: 20px;
+  }
+
+  .butterfly-scroll {
+    width: 50px;
+    height: auto;
+  }
+
+  .cart-scroll {
+    position: absolute;
+    padding-top: 3px;
+    margin-right: 0;
+    width: 30px;
+    height: auto;
+    margin-left: auto;
+    margin-left: auto;
+    display: inline;
+  }
+}
