@@ -32,6 +32,13 @@
     height: auto;
   }
 
+  .mySlides {
+    width: 250px;
+    height: 250px;
+    margin: 0px;
+    display: inline-block;
+  }
+
   #menu_icon {
     display: none;
     }
