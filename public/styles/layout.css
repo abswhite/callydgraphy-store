@@ -12,10 +12,6 @@
   width: 100%;
 }
 
-#order-summary {
-  width: 100%;
-}
-
 #cart hr {
   display: block;
 }
@@ -26,19 +22,31 @@
   }
 
   #order-summary {
-    float: right;
-    width: 250px;
-    border-left: solid 1px lightgrey;
-    padding-left: 15px;
+    width: 100%;
+    border-top: solid 1px lightgrey;
   }
 
   #cart_items {
     float: left;
-    width: 400px;
+    width: 100%;
   }
 
   #cart hr {
     display: none;
   }
 
+
+@media only screen and (min-width: 640px) {
+  #cart_items {
+    width: 400px;
+  }
+
+  #order-summary {
+    float: right;
+    float: right;
+    width: 250px;
+    border-top: 0;
+    border-left: solid 1px lightgrey;
+    padding-left: 15px;
+  }
 }
