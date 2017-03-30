@@ -16,11 +16,11 @@
 
     <script id="product-template" type="text/x-handlebars-template">
       <div class="simpleCart_shelfItem">
-          <img src="{{productImg}}" class="item_thumb" />
-          <h3 class="item_name">{{title}} | {{type}}</h3>
-          <input type="text" value="1" class="item_Quantity">
-          <span class="item_price">{{price}}</span>
-      	<a class="item_add" href="javascript:;"> Add to Cart </a>
+        <img src="{{productImg}}" class="item_thumb" />
+        <h3 class="item_name">{{title}} | {{type}}</h3>
+        <input type="text" value="1" class="item_Quantity">
+        <span class="item_price">{{price}}</span>
+      	<a id="item_add" class="item_add" href="javascript:;">Add to Cart</a>
         <br>
       </div>
     </script>
@@ -35,8 +35,9 @@
             <img src="images/logo/logo-7.png" class="butterfly"/>
             <h1>Callydgraphy</h1>
             <h5 class="subtitle">Lydia Grasso Calligraphy Designs</h5>
-            <!-- <a href="/cart"><img src="images/social/cartIcon.png" id="cart_icon"></a> -->
             <a href="/cart"><img src="images/social/cartIcon.png" class="cart_icon cart_icon2"></a>
+            <h3 class="confirmation">Item Added to Cart!</h3>
+
           </div>
         </div>
 
@@ -138,6 +139,7 @@
 
                 <!-- create a checkout button -->
                 <a href="javascript:;" class="simpleCart_checkout"><img src="images/social/paypal.png" id="paypal"/></a>
+                <h1></h1>
               </div>
 
           </div>
@@ -181,6 +183,7 @@
     <script src="scripts/controllers/storeController.js"></script>
     <script src="scripts/controllers/homeController.js"></script>
 
+    <script src="scripts/model/addToCart.js"></script>
     <script src="scripts/model/productRender.js"></script>
     <script src="scripts/controllers/routes.js"></script>
 
