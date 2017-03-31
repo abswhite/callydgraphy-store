@@ -11,6 +11,8 @@
     $('#about').hide();
     $('#home').hide();
     $('#cart').hide();
+    $('header').show();
+
   }
 
   module.storeController = storeController;

@@ -8,7 +8,9 @@
     $('nav').show();
     $('#home').hide();
     $('#cart').hide();
-    $('#store').hide()
+    $('#store').hide();
+    $('header').show();
+
   };
 
   module.aboutController = aboutController;

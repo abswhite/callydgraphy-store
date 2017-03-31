@@ -9,6 +9,8 @@
     $('#store').hide();
     $('#about').hide();
     $('#home').hide();
+    $('header').show();
+
   };
 
   module.cartController = cartController;

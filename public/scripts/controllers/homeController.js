@@ -10,6 +10,7 @@
     $('#cart').hide();
     $('#store').hide();
     $('#about').hide();
+    $('header').hide();
   };
 
   module.homeController = homeController;
