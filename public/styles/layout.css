@@ -72,7 +72,7 @@
   }
 
   .home-link:hover {
-    color: #CD5C5C;
+    color: #F08080;
     animation: fadein 2s;
     -webkit-animation: fadein 2s; /* Safari and Chrome */
   }
