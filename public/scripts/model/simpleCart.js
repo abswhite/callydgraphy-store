@@ -87,7 +87,7 @@
 
 				// default options
 				settings = {
-					checkout				: { type: "PayPal", email: "you@yours.com" },
+					checkout				: { type: "PayPal", email: "abigailwhite213@gmail.com"},
 					currency				: "USD",
 					language				: "english-us",
 
@@ -98,6 +98,7 @@
 						{ attr: "quantity", label: "" },
 						{ view: "increment", label: false },
 						{ attr: "name", label: "" },
+						{ attr: "notes", label: "" },
 						{ attr: "price", label: "", view: 'currency' },
 						{ attr: "total", label: "", view: 'currency' },
 						{ view: "remove", text: "Remove", label: false },
@@ -636,7 +637,7 @@
 						x,
 						xlen;
 
-					container.html(' ').append(cart_container);
+					container.html('').append(cart_container);
 
 					cart_container.append(thead_container);
 
@@ -1817,7 +1818,6 @@
 							// add the item
 							simpleCart.add(fields);
 						    $('.confirmation').show(0).delay(1000).hide(0);
-								console.log('hello');
 						}
 					}
 

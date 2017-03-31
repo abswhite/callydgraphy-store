@@ -1,6 +1,6 @@
 /*Nav browser*/
 #nav-browser {
-  width: 250px;
+  width: 200px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 30px;
@@ -57,7 +57,7 @@
 }
 
 .top-bar {
-  width: 330px;
+  width: 290px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -84,9 +84,32 @@
   display: none;
 }
 
+.cart_icon1 {
+  width: 30px;
+  height: auto;
+  position: absolute;
+  padding-top: 30px;
+  padding-left: 60px;
+  margin-right: 0;
+  width: 30px;
+  height: auto;
+  margin-left: auto;
+  margin-left: auto;
+  display: inline;
+}
+
 .h1-scroll {
   font-size: 25px;
 }
+
+.itemAdded1, .itemAdded {
+  font-family: 'Open Sans Condensed', arial;
+  font-size: 20px;
+  color: #F08080;
+  text-align: center;
+  display: none;
+}
+
 
 @media only screen and (min-width: 640px) {
 
@@ -94,31 +117,27 @@
     width: 30px;
     height: auto;
     position: absolute;
-    padding-top: 30px;
-    padding-left: 40px;
     margin-right: 0;
     width: 30px;
     height: auto;
     margin-left: auto;
     margin-left: auto;
     display: inline;
+    padding-top: 65px;
+    padding-left: 200px;
   }
 
+  .cart_icon1 {
+    padding-top: 30px;
+    padding-left: 227px;
+  }
 
-  .confirmation {
-    display: none;
-    position: absolute;
+  .itemAdded1, .itemAdded {
     font-family: 'Open Sans Condensed', arial;
-    font-size: 25px;
-    background-color: #F08080;
-    color: white;
-    width: 100px;
+    font-size: 20px;
+    color: #F08080;
     text-align: center;
-    margin-left: 850px;
-    margin-right: 0;
-    margin-top: 0;
-    padding-top: 5px;
-    padding-left: 5px;
+    display: none;
   }
 
   .navbar-fixed {
@@ -128,16 +147,6 @@
 
   .subtitle-margin {
     margin-right: 180px;
-  }
-
-  .cart_icon1 {
-    padding-top: 30px;
-    padding-left: 217px;
-  }
-
-  .cart_icon2 {
-    padding-top: 60px;
-    padding-left: 200px;
   }
 
   .top-bar {
@@ -157,18 +166,8 @@
   }
 
   .butterfly-scroll {
-    width: 50px;
+    width: 40px;
     height: auto;
   }
 
-  .cart-scroll {
-    position: absolute;
-    padding-top: 3px;
-    margin-right: 0;
-    width: 30px;
-    height: auto;
-    margin-left: auto;
-    margin-left: auto;
-    display: inline;
-  }
 }
