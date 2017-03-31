@@ -89,7 +89,7 @@
   height: auto;
   position: absolute;
   padding-top: 30px;
-  padding-left: 35px;
+  padding-left: 27px;
   margin-right: 0;
   width: 30px;
   height: auto;
@@ -123,13 +123,13 @@
     margin-left: auto;
     margin-left: auto;
     display: inline;
-    padding-top: 65px;
-    padding-left: 200px;
+    padding-top: 55px;
+    padding-left: 190px;
   }
 
   .cart_icon1 {
-    padding-top: 30px;
-    padding-left: 227px;
+    padding-top: 25px;
+    padding-left: 180px;
   }
 
   .itemAdded1, .itemAdded {
