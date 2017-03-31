@@ -80,6 +80,12 @@
   margin-right: 10px;
 }
 
+#nav-browser a:hover {
+  color: #3A3A38;
+  animation: fadein 2s;
+  -webkit-animation: fadein 2s; /* Safari and Chrome */
+}
+
 .cart_icon {
   display: none;
 }
@@ -123,13 +129,13 @@
     margin-left: auto;
     margin-left: auto;
     display: inline;
-    padding-top: 55px;
-    padding-left: 190px;
+    padding-top: 60px;
+    padding-left: 200px;
   }
 
   .cart_icon1 {
-    padding-top: 25px;
-    padding-left: 180px;
+    padding-top: 30px;
+    padding-left: 190px;
   }
 
   .itemAdded1, .itemAdded {
