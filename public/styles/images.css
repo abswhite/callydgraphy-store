@@ -25,6 +25,11 @@
   display: block;
 }
 
+.home-img {
+  width: 400px;
+  height: auto;
+}
+
 
 @media only screen and (min-width: 640px) {
   .butterfly {

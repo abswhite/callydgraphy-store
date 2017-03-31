@@ -7,13 +7,15 @@ a {
   color: black;
 }
 
-body {
+body, html {
   font-size: 15px;
   color: 	#3A3A38;
   font-family: 'Homemade Apple', cursive;
   width: 97%;
   margin-left: auto;
   margin-right: auto;
+  height: 100%;
+  margin: 0;
 }
 
 p {
@@ -21,7 +23,7 @@ p {
   font-family: 'Open Sans Condensed', arial;
 }
 
-main {
+main,  {
   margin: auto;
   width: 90%;
 }
