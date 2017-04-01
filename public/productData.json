@@ -1,68 +1,39 @@
 [
   {
     "title": "Custom Wood Sign",
-    "price": "$1.00",
-    "type": "Basic",
+    "price": "$15.00",
+    "type": "Initial",
     "productImg": "images/products/Custom Wood Sign - Initial 1.jpg"
   },
   {
     "title": "Custom Wood Sign",
-    "type": "Long Quote",
-    "price": "$34.99",
-    "productImg": "images/products/Custom Wood Sign - Long Quote 1.jpg"
-  },
-  {
-    "title": "Custom Wood Sign",
-    "type": "Name- Style 1",
-    "price": "$34.99",
+    "type": "Last Name",
+    "price": "$20.00",
     "productImg": "images/products/Custom Wood Sign - Name 1.jpg"
   },
+
   {
     "title": "Custom Wood Sign",
-    "type": "Name- Style 2",
-    "price": "$34.99",
-    "productImg": "images/products/Custom Wood Sign - Name 2.jpg"
-  },
-  {
-    "title": "Custom Wood Sign",
-    "type": "Name- Style 3",
-    "price": "$34.99",
+    "type": "First Name",
+    "price": "$20.00",
     "productImg": "images/products/Custom Wood Sign - Name 3.jpg"
   },
   {
     "title": "Custom Wood Sign",
-    "type": "Short Quote- Style 1",
-    "price": "$34.99",
-    "productImg": "images/products/Custom Wood Sign - Short Quote 1.jpg"
-  },
-  {
-    "title": "Custom Wood Sign",
-    "type": "Short Quote- Style 2",
-    "price": "$34.99",
-    "productImg": "images/products/Custom Wood Sign - Short Quote 2.jpg"
-  },
-  {
-    "title": "Custom Wood Sign",
-    "type": "Short Quote- Style 3",
-    "price": "$34.99",
+    "type": "Short Quote",
+    "price": "$25.00",
     "productImg": "images/products/Custom Wood Sign - Short Quote 3.jpg"
   },
   {
-    "title": "His & Her Vow Books",
-    "type": "Style 1",
-    "price": "$34.99",
-    "productImg": "images/products/His Her Vow Books 1.jpg"
+    "title": "Custom Wood Sign",
+    "type": "Long Quote",
+    "price": "$30.00",
+    "productImg": "images/products/Custom Wood Sign - Long Quote 1.jpg"
   },
   {
-    "title": "His & Her Vow Books",
-    "type": "Style 2",
-    "price": "$34.99",
-    "productImg": "images/products/His Her Vow Books 2.jpg"
-  },
-  {
-    "title": "His & Her Vow Books",
-    "type": "Style 3",
-    "price": "$34.99",
+    "title": "Moleskin Notebooks (2)",
+    "type": "His & Her Vow Books",
+    "price": "$25.00",
     "productImg": "images/products/His Her Vow Books 3.jpg"
   }
 ]

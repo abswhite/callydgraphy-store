@@ -9,6 +9,7 @@
     $('#home').hide();
     $('#cart').hide();
     $('#store').hide();
+    $('#services').hide();
     $('header').show();
 
   };

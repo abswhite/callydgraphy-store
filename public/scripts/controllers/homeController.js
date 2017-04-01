@@ -11,6 +11,7 @@
     $('#store').hide();
     $('#about').hide();
     $('header').hide();
+    $('#services').hide();
   };
 
   module.homeController = homeController;

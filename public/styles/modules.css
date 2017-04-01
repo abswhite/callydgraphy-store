@@ -62,8 +62,9 @@
 }
 
 .item_price, .item_add {
-  font-size: 16px;
+  font-size: 18px;
 }
+
 
 .item_add {
   background-color: #EE6363;
@@ -74,6 +75,9 @@
   padding-right: 7px;
   padding-top: 3px;
   padding-bottom: 3px;
+  display: block;
+  text-align: center;
+  width: 80px;
 }
 
 .item-increment, .item-decrement {
