@@ -51,9 +51,9 @@
   }
 
   .mySlides {
-    width: 900px;
-    height: 600px;
-    margin: 0px;
+    width: 400px;
+    height: auto;
+    margin-bottom: 0px;
     display: inline-block;
   }
 

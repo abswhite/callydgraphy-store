@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <title>Callydgraphy</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/modules.css">
     <link rel="stylesheet" href="styles/layout.css">
@@ -17,7 +17,7 @@
       <div class="simpleCart_shelfItem">
         <img src="{{productImg}}" class="item_thumb" />
         <h3 class="item_name">{{title}} | {{type}}</h3>
-        <input type="text" value="1" class="item_Quantity">
+        <input type="number" value="1" class="item_Quantity">
         <span class="item_price">{{price}}</span>
         <br>
         <textarea type="text" class="item_text" placeholder="Add Custom Item Text"></textarea>
@@ -51,7 +51,7 @@
               <ul>
                 <a href="/"><li>Home</li></a>
                 <a href="/store"><li>Store</li></a>
-                <a href="/services"><li>Store</li></a>
+                <a href="/services"><li>Services</li></a>
                 <a href="/about"><li>About</li></a>
 
               </ul>
@@ -97,14 +97,19 @@
           <div id="services">
             <h2 class="store">Services</h2>
             <a href="/cart" class="simpleCart_goToCart goToCart"><h3>Go to Store</h3></a>
-            <img src="images/products/lydia-1.jpg" />
-            <img src="images/products/lydia-2.png" />
-            <img src="images/products/lydia-3.png" />
-            <img src="images/products/lydia-4.jpg" />
-            <img src="images/products/lydia-5.png" />
-            <img src="images/products/lydia-6.png" />
-            <img src="images/products/lydia-7.png" />
-            <img src="images/products/lydia-8.png" />
+            <div class="lydia-bio">
+              <p>In addition to custom products, Lydia offers artistic services for special events, such as weddings, engagements, and parties.</p>
+              <p>Commissions often include seating charts on mirrors, wedding programs on chalkboards, personal greeting cards, wedding invitations, placecards, vow books, and more.</p>
+              <p>Please contact Lydia at <span class="email">lydia.grasso@gmail.com</span> to discuss your upcoming event!</p>
+            </div>
+            <img src="images/products/lydia-1.jpg" class="mySlides" />
+            <img src="images/products/lydia-2.png" class="mySlides"/>
+            <img src="images/products/lydia-3.png" class="mySlides"/>
+            <img src="images/products/lydia-4.jpg" class="mySlides"/>
+            <img src="images/products/lydia-5.png" class="mySlides"/>
+            <img src="images/products/lydia-6.png" class="mySlides"/>
+
+
 
           </div>
 
