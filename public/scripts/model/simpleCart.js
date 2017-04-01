@@ -1818,7 +1818,7 @@
 
 							// add the item
 							simpleCart.add(fields);
-						    $('.confirmation').show(0).delay(1000).hide(0);
+						    $('.confirmation').show(0).delay(2000).hide(0);
 						}
 					}
 
