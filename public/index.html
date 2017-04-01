@@ -20,7 +20,8 @@
         <input type="text" value="1" class="item_Quantity">
         <span class="item_price">{{price}}</span>
         <br>
-        <textarea type="text" class="item_notes">Add Custom Item Text</textarea>
+        <textarea type="text" class="item_text" placeholder="Add Custom Item Text"></textarea>
+        <textarea type="text" class="item_notes" placeholder="Additional Item Notes"></textarea>
         <a class="item_add" href="javascript:;">Add to Cart</a>
 
         <br>
@@ -50,15 +51,17 @@
               <ul>
                 <a href="/"><li>Home</li></a>
                 <a href="/store"><li>Store</li></a>
+                <a href="/services"><li>Store</li></a>
                 <a href="/about"><li>About</li></a>
 
               </ul>
             </nav>
 
-            <nav id="nav-browser">
+            <nav id="nav-browser" class="email">
               <ul>
                 <li><a href="/">Home</a></li>
                 <li><a href="/store">Store</a></li>
+                <a href="/services"><li>Services</li></a>
                 <li><a href="/about">About</a></li>
               </ul>
             </nav>
@@ -71,12 +74,17 @@
         <!-- main -->
         <main>
           <section id="home">
-            <!-- <img class="mySlides" src="images/products/1-Custom Wood Sign.jpg">
-            <img class="mySlides" src="images/products/2-Custom Wood Sign.jpg">
-            <img class="mySlides" src="images/products/3-Custom Wood Sign.jpg"> -->
-            <h1 class="welcome">Handmade Artwork.<br>Custom for You.</h1>
-
-
+            <div class="home-div">
+              <img src="images/logo/logo-7.png" class="butterfly"/>
+              <h1>Callydgraphy</h1>
+              <h5 class="subtitle">Lydia Grasso Calligraphy Designs</h5>
+            </div>
+            <h1 class="welcome ">Handmade Artwork.<br>Custom for You.</h1>
+            <div class="home-link-div">
+              <a href="/store"><h3 class="home-link">Designs</h3></a>
+              <a href="/services"><h3 class="home-link">Services</h3></a>
+              <a href="/about"><h3 class="home-link">Contact</h3></a>
+            </div>
           </section>
 
           <section id="store">
@@ -85,6 +93,20 @@
             <div id="shelf"></div>
             <a href="/cart" class="simpleCart_goToCart"><h3>Go to Cart<h3></a>
           </section>
+
+          <div id="services">
+            <h2 class="store">Services</h2>
+            <a href="/cart" class="simpleCart_goToCart goToCart"><h3>Go to Store</h3></a>
+            <img src="images/products/lydia-1.jpg" />
+            <img src="images/products/lydia-2.png" />
+            <img src="images/products/lydia-3.png" />
+            <img src="images/products/lydia-4.jpg" />
+            <img src="images/products/lydia-5.png" />
+            <img src="images/products/lydia-6.png" />
+            <img src="images/products/lydia-7.png" />
+            <img src="images/products/lydia-8.png" />
+
+          </div>
 
             <div id="cart">
               <h2 class="store">Shopping Cart</h2>
@@ -146,9 +168,16 @@
          <!-- About  -->
           <section id="about">
             <h2>About Lydia</h2>
-            <p>Hey, I'm Lydia. I'm 21, I love pugs & Im from Massachusetts.
-              <br><br>
-              My love for calligraphy began as the result of my inability to pay attention in class. Though I've been making things for people since high school, I "officially" began Callydgraphy November of 2015 while I was recovering from my ACL surgery. Since then, I've been able to work on a wide variety of commissions, ranging from seating charts on mirrors, wedding programs on chalkboards, personal greeting cards, wedding invitations, vow books, and more. It's been a blast so far, and I look forward to helping you put to paper (or mirror or chalkboard or whatever) exactly what you want! </p>
+            <div class="lydia-bio">
+              <p>Hi. I'm Lydia. I'm a Boston-based student, artist, and pug-lover.</p>
+            </div>
+            <img src="images/logo/lydia.png" class="lydia"/>
+            <div class="lydia-bio">
+                <p>My love for calligraphy began as the result of my inability to pay attention in class. Though I've been making things for people since high school, I "officially" began Callydgraphy November of 2015 while I was recovering from my ACL surgery. Since then, I've been able to work on a wide variety of commissions, ranging from seating charts on mirrors, wedding programs on chalkboards, personal greeting cards, wedding invitations, vow books, and more. It's been a blast so far, and I look forward to helping you put to paper (or mirror or chalkboard or whatever) exactly what you want! </p>
+            </div>
+            <hr>
+              <p> Contact: <span class="email">lydia.grasso@gmail.com</span></p>
+              <p> Etsy Store: <a href="https://www.etsy.com/shop/CalLydgraphy" target="_blank"><span class="email">www.etsy.com/shop/CalLydgraphy</span></a></p>
           </section>
 
     </main>
@@ -183,6 +212,7 @@
     <script src="scripts/controllers/cartController.js"></script>
     <script src="scripts/controllers/storeController.js"></script>
     <script src="scripts/controllers/homeController.js"></script>
+    <script src="scripts/controllers/servicesController.js"></script>
 
     <script src="scripts/model/productRender.js"></script>
     <script src="scripts/controllers/routes.js"></script>

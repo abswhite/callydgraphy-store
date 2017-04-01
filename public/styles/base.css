@@ -4,18 +4,29 @@ img {
 
 a {
   text-decoration: none;
-  color: black;
 }
 
-body, html {
+body {
   font-size: 15px;
   color: 	#3A3A38;
   font-family: 'Homemade Apple', cursive;
-  width: 97%;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
   height: 100%;
   margin: 0;
+}
+
+textarea, input {
+  font-size: 17px;
+  font-family: 'Open Sans Condensed', arial;
+  border: 1px solid lightgrey;
+}
+
+textarea {
+  margin-top: 5px;
+  width: 175px;
+  height: 100px;
 }
 
 p {
@@ -23,7 +34,7 @@ p {
   font-family: 'Open Sans Condensed', arial;
 }
 
-main,  {
+main  {
   margin: auto;
   width: 90%;
 }
@@ -38,7 +49,7 @@ hr {
 h1 {
   display: inline-block;
   margin-bottom: 2px;
-  font-size: 30px;
+  font-size: 26px;
 }
 
 footer {
@@ -67,7 +78,7 @@ h2 {
   }
 
   h1 {
-    font-size: 40px;
+    font-size: 35px;
   }
 
   h2 {

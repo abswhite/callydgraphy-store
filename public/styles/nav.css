@@ -1,6 +1,6 @@
 /*Nav browser*/
 #nav-browser {
-  width: 200px;
+  width: 290px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 30px;
@@ -80,6 +80,12 @@
   margin-right: 10px;
 }
 
+#nav-browser a:hover {
+  color: #3A3A38;
+  animation: fadein 2s;
+  -webkit-animation: fadein 2s; /* Safari and Chrome */
+}
+
 .cart_icon {
   display: none;
 }
@@ -89,7 +95,7 @@
   height: auto;
   position: absolute;
   padding-top: 30px;
-  padding-left: 60px;
+  padding-left: 27px;
   margin-right: 0;
   width: 30px;
   height: auto;
@@ -123,13 +129,13 @@
     margin-left: auto;
     margin-left: auto;
     display: inline;
-    padding-top: 65px;
+    padding-top: 60px;
     padding-left: 200px;
   }
 
   .cart_icon1 {
     padding-top: 30px;
-    padding-left: 227px;
+    padding-left: 190px;
   }
 
   .itemAdded1, .itemAdded {
