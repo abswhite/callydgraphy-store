@@ -25,25 +25,25 @@
 }
 
 /*Nav Mobile*/
-#nav-mobile {
+#nav-mobile, #nav-mobile-home {
   width: 50px;
 }
 
-#nav-mobile ul {
+#nav-mobile ul, #nav-mobile-home ul {
   display: none;
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
 
-#nav-mobile li {
+#nav-mobile li, #nav-mobile-home li {
   font-size: 18px;
   margin: 0;
   padding: 0;
   text-align: center;
 }
 
-#nav-mobile a {
+#nav-mobile a, #nav-mobile-home a {
   margin: 0;
   padding: 0;
 }
@@ -73,7 +73,7 @@
 }
 
 
-#nav-mobile a, #nav-browser a {
+#nav-mobile a, #nav-browser a, #nav-mobile-home a {
   color: 	#3A3A38;
   font-family: 'Open Sans Condensed', arial;
   margin-left: 10px;
