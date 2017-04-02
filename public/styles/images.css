@@ -35,7 +35,96 @@
   height: auto;
 }
 
+
 @media only screen and (min-width: 640px) {
+  #home {
+    width: 1300px;
+  }
+
+   #slideshow {
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+  	padding: 0;
+    width: 100%;
+    padding: 0;
+    display: inline;
+  }
+
+  .slider-wrapper {
+  	width: 100%;
+  	height: 360px;
+  	position: relative;
+  }
+
+  .slide {
+  	float: left;
+  	position: absolute;
+  	width: 100%;
+  	height: 100%;
+  	opacity: 0;
+  	transition: opacity 3s linear;
+  }
+
+  .slider-wrapper > .slide:first-child {
+  	opacity: 1;
+  }
+
+  .content-inside {
+    padding: 0;
+    padding-bottom: 50px;
+    width: 100%;
+    margin: 0;
+  }
+
+  .home-pic{
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .home-pic1, .home-pic2, .home-pic3, .home-pic5, .home-pic4 {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    box-shadow: 0 0 20px rgba(0,0,0,0.6);
+    margin-right: auto;
+    margin-left: auto;
+
+  }
+
+  .home-nav-margin {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+  }
+
+  .home-pic4 {
+    width: 305px;
+    height: 360px;
+  }
+
+  .home-pic1 {
+    width: 480px;
+    height: 360px;
+  }
+
+  .home-pic2 {
+    width: 260px;
+    height: 360px;
+  }
+
+  .home-pic3 {
+    width: 260px;
+    height: 360px;
+  }
+
+  .home-pic5 {
+    width: 500px;
+    height: 360px;
+  }
 
   .lydia {
     width: 450px;
@@ -50,12 +139,6 @@
     height: auto;
   }
 
-  .mySlides {
-    width: 400px;
-    height: auto;
-    margin-bottom: 0px;
-    display: inline-block;
-  }
 
   #menu_icon {
     display: none;
