@@ -25,6 +25,7 @@
   height: auto;
   margin-right: auto;
   margin-left: auto;
+
 }
 
 #cart_items img {
@@ -124,7 +125,7 @@
 }
 
 .simpleCart_goToStore h3 {
-  width: 90px;
+  width: 100px;
 }
 
 .store {
@@ -138,11 +139,6 @@
 
 .content {
   min-height: 100%;
-}
-
-.content-inside {
-  padding: 20px;
-  padding-bottom: 50px;
 }
 
 .footer {
@@ -183,7 +179,7 @@
   }
 
   .store {
-    width: 555px;
+    width: 680px;
     display: inline-block;
   }
 
@@ -210,7 +206,7 @@
 
   }
   .simpleCart_shelfItem, .cart_content {
-    width: 380px;
+    width: 445px;
   }
 
   #cart .cart_content {

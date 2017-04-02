@@ -23,9 +23,13 @@ textarea, input {
   border: 1px solid lightgrey;
 }
 
+input {
+  width: 30px;
+}
+
 textarea {
   margin-top: 5px;
-  width: 175px;
+  width: 210px;
   height: 100px;
 }
 
@@ -49,7 +53,7 @@ hr {
 h1 {
   display: inline-block;
   margin-bottom: 2px;
-  font-size: 26px;
+  font-size: 27px;
 }
 
 footer {
@@ -70,7 +74,7 @@ h2 {
 }
 
 @media only screen and (min-width: 640px) {
-  body {
+  #page-margin, #nav-margin, #footer-margin {
     width: 900px;
     margin-left: auto;
     margin-right: auto;
