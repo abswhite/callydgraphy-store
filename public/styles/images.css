@@ -51,7 +51,7 @@
   margin-top: 30px;
 }
 
-.butterfly {
+.butterfly, .butterfly-home {
   width: 50px;
   height: auto;
   display: inline-block;
@@ -168,7 +168,7 @@
   }
 
   .home-nav-margin {
-    width: 900px;
+    width: 540px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 30px;
@@ -205,6 +205,11 @@
 
   .butterfly {
     width: 100px;
+    height: auto;
+  }
+
+  .butterfly-home {
+    width: 130px;
     height: auto;
   }
 

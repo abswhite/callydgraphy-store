@@ -1,27 +1,23 @@
 /*Nav browser*/
-#nav-browser {
+#nav-browser, #nav-browser1 {
   width: 290px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 30px;
 }
 
-#nav-browser ul {
+#nav-browser ul, #nav-browser1 ul {
   padding: 0;
+  display: none;
 }
 
-#nav-browser li {
+#nav-browser li, #nav-browser1 li {
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
   margin-bottom: 0;
   font-family: 'Open Sans Condensed', arial;
   font-size: 22px;
-}
-
-
-#nav-browser ul {
-  display: none;
 }
 
 /*Nav Mobile*/
@@ -60,6 +56,7 @@
   width: 290px;;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 10px;
 }
 
 .navbar-fixed {
@@ -73,14 +70,14 @@
 }
 
 
-#nav-mobile a, #nav-browser a, #nav-mobile-home a {
+#nav-mobile a, #nav-browser a, #nav-mobile-home a, #nav-browser1 a {
   color: 	#3A3A38;
   font-family: 'Open Sans Condensed', arial;
   margin-left: 10px;
   margin-right: 10px;
 }
 
-#nav-browser a:hover {
+#nav-browser a:hover, #nav-browser1 a:hover {
   color: #3A3A38;
   animation: fadein 2s;
   -webkit-animation: fadein 2s; /* Safari and Chrome */
@@ -130,7 +127,7 @@
     margin-left: auto;
     display: inline;
     padding-top: 60px;
-    padding-left: 200px;
+    padding-left: 240px;
   }
 
   .cart_icon1 {
@@ -159,13 +156,17 @@
     width: 900px;
   }
 
-  #nav-browser ul {
+  #nav-browser ul, #nav-browser1 ul {
     display: inline-block;
   }
 
-  #nav-browser ul li {
+  #nav-browser ul li, #nav-browser1 ul li {
     display: inline-block;
   }
+
+  #nav-browser1 ul {
+    width: 335px;
+  };
 
   .h1-scroll {
     font-size: 20px;
