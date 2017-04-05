@@ -20,13 +20,13 @@
   },
   {
     "title": "Custom Wood Sign",
-    "type": "Short Quote",
+    "type": "Short Quote (0-15 Words)",
     "price": "$25.00",
     "productImg": "images/products/Custom Wood Sign - Short Quote 3.jpg"
   },
   {
     "title": "Custom Wood Sign",
-    "type": "Long Quote",
+    "type": "Long Quote (16+ Words)",
     "price": "$30.00",
     "productImg": "images/products/Custom Wood Sign - Long Quote 1.jpg"
   },
