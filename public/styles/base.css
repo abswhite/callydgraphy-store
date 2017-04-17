@@ -2,6 +2,10 @@ img {
   max-width: 100%;
 }
 
+.header {
+  font-size: 24px;
+}
+
 a {
   text-decoration: none;
 }
@@ -63,7 +67,6 @@ footer {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-
 }
 
 ul {
@@ -80,6 +83,11 @@ h2 {
 }
 
 @media only screen and (min-width: 640px) {
+
+  .header {
+    font-size: 27px;
+  }
+
   #page-margin, #footer-margin {
     width: 900px;
     margin-left: auto;
